@@ -23,36 +23,33 @@ ASP.NET Core(멀티 페이지 응용 프로그램)로 구축된 샘플 케이크
 - AutoMapper *(도메인 모델 & DTO로 매핑하는 경우)*
 - jQuery & Boot 4단계
 
-## To run the project locally:
-   > admin account : `admin@admin.com` and Password: `Passw@rd!123` (You can change it from `appsettings.json` before apply `update database`)
+## 프로젝트를 로컬로 실행하려면:
+> admin account : 'admin@admin.com ', Passw@rd!123' ('update database' 적용 전에 'appsetings.json'에서 변경 가능)
 
-   > Make sure, dotnet core SDK & npm is installed in your machine.
+> 기계에 닷넷 코어 SDK & npm이 설치되어 있는지 확인합니다.
 
-- **Using VS2017**
-     ``` 
-       > git clone https://github.com/ritwickdey/Cake-Shop.git
-       > cd Cake-Shop/
-    ```
-    - Now Open the `CakeShop.sln` through `VS2017`.
-    - Open `appsettings.json` & change the connection string. (But wait! you may not need to change it as this the default connection string of `SQL Server Express` that comes with `Visual Studio`).
-    - Hit `Ctrl+Shift+B` to build.
-    - Open `Package Manager Console` from `Tools` and enter `update-database`.
-    - Hit `Ctrl+F5` to run without debugging.
+- **VS2017 사용**
+```
+- 이제 'VS2017'을 통해 '케이크샵.sln'을 오픈합니다.
+- 'appsetsettings.json'을 열고 연결 문자열을 변경합니다. (그러나 잠시만요! 'Visual Studio'와 함께 제공되는 'SQL Server Express'의 기본 연결 문자열이므로 변경할 필요가 없을 수도 있습니다.).
+- Ctrl+Shift+B를 눌러 빌드합니다.
+- Tools에서 Package Manager Console을 열고 update-database를 입력합니다.
+- 디버깅 없이 실행하려면 'Ctrl+F5'를 누르십시오.
 
 - **Using CLI**
     ```
-        > git clone https://github.com/ritwickdey/Cake-Shop.git
-        > cd Cake-Shop/Cake-Shop/
-        > npm install
-        > dotnet restore
-        > set ASPNETCORE_ENVIRONMENT=Development
-        > set ConnectionStrings:DefaultConnection="<YOUR CONNECTION STRING>"
-        > npm i webpack -g
-        > webpack --config webpack.config.js
-        > npm run build
-        > dotnet build 
-        > dotnet ef database update
-        > dotnet run 
+        Shop.git
+>cd 케이크숍/ 케이크숍/
+> npm 설치
+> 닷넷 복원
+> set ASPNET CORE_ENRVORY= 개발
+> set Connection String:DefaultConnection="<YOUR CONNection STRING>"
+> npmi 웹팩 -g
+> webpack --config webpack.config.js
+> npm run build
+>닷넷 빌드
+> dotnetef 데이터베이스 업데이트
+>도트넷 런
     ```
 
 ## Sceenshots
