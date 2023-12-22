@@ -1,27 +1,27 @@
 # Cake Shop
 
-A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
+ASP.NET Core(멀티 페이지 응용 프로그램)로 구축된 샘플 케이크 가게 웹 사이트
 
 ![screenshot1](./screenshots/screenshot1.png)
 
-## APP/Code Features 
-- Only Admin can perform Create/Edit/Delete cakes & manage Orders.
-- Normal User can only can buy cakes & view their orders.
-- Managing Cart System using cookie.
-- Client Side & Server side validation,
-- Cookie Based Authentication & Authorization - Not Session
-- Login through either `Username` or `Email`.
-- Responsive UI
-- Repository Pattern 
-- Application Architecture is decoupled form ORM (Entity Framework)
+## APP/코드 기능
+- 관리자만 케이크 생성/편집/삭제 및 주문 관리를 수행할 수 있습니다.
+- 일반 사용자는 케이크를 사고 주문을 볼 수 있을 뿐입니다.
+- 쿠키를 이용한 카트 시스템 관리.
+- 클라이언트 측과 서버 측의 검증,
+- 쿠키 기반 인증 및 승인 - 세션 없음
+- '사용자 이름' 또는 '이메일'을 통해 로그인합니다.
+- 응답 UI
+- 리포지토리 패턴
+- 애플리케이션 아키텍처는 ORM(Entity Framework) 형태로 분리됩니다
 
-## Framework / Library 
-- ASP.NET Core 2.0 *(Backend)*
-- Razor View Engine *(For generating markup)*
-- Entity Framework Core *(ORM)*
-- ASP.NET Identity *(Cookie Based Authentication & Authorization - Not Session)*
-- AutoMapper *(For mapping into Domain Model & DTO)*
-- jQuery & Bootstap 4
+## 프레임워크 / 라이브러리
+- ASP.NET Core 2.0 *(백엔드)*
+- Razard View Engine *(마크업 생성용)*
+- 엔티티 프레임워크 핵심*(ORM)*
+- ASP.NET ID *(쿠키 기반 인증 및 인증 - 세션 아님)*
+- AutoMapper *(도메인 모델 & DTO로 매핑하는 경우)*
+- jQuery & Boot 4단계
 
 ## To run the project locally:
    > admin account : `admin@admin.com` and Password: `Passw@rd!123` (You can change it from `appsettings.json` before apply `update database`)
